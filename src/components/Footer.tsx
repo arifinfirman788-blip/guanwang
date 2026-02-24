@@ -8,8 +8,8 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-2 mb-6">
-              <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center font-bold text-lg">G</div>
-              <span className="text-xl font-bold">贵旅数网</span>
+              <img src={`${import.meta.env.BASE_URL}images/logo.png`} alt="Logo" className="w-10 h-10 rounded-lg" />
+              <span className="text-xl font-bold">贵州贵旅数网科技有限公司</span>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
               致力于运用大数据、人工智能等前沿技术，构建智慧文旅服务体系，引领产业数字化转型。
