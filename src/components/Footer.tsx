@@ -71,7 +71,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 pt-8 text-center text-gray-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} 贵州贵旅数网科技有限公司 版权所有. 黔ICP备88888888号</p>
+          <p>&copy; {new Date().getFullYear()} 贵州贵旅数网科技有限公司 版权所有. 黔ICP备2025044274号-4</p>
         </div>
       </div>
     </footer>
