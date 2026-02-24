@@ -1,5 +1,3 @@
-import { ArrowUpRight } from 'lucide-react';
-
 const About = () => {
   return (
     <section id="about" className="py-24 bg-white relative overflow-hidden">
