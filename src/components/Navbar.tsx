@@ -18,7 +18,6 @@ const Navbar = () => {
     { name: '首页', href: '#home' },
     { name: '关于我们', href: '#about' },
     { name: '核心产品', href: '#products' },
-    { name: '解决方案', href: '#solutions' },
   ];
 
   return (

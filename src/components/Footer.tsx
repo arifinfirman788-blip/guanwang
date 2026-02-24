@@ -33,7 +33,6 @@ const Footer = () => {
             <ul className="space-y-4 text-gray-400">
               <li><a href="#home" className="hover:text-blue-400 transition-colors">首页</a></li>
               <li><a href="#about" className="hover:text-blue-400 transition-colors">关于我们</a></li>
-              <li><a href="#solutions" className="hover:text-blue-400 transition-colors">解决方案</a></li>
             </ul>
           </div>
 
