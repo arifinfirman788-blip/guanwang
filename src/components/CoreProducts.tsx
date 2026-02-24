@@ -13,7 +13,7 @@ const CoreProducts = () => {
         { icon: Smartphone, text: '多端触达：深度集成高德地图，提供“AI探索发现”、“高德扫街榜”等特色功能' },
         { icon: ArrowRight, text: '一键智能订购：打通全省文旅服务平台，行程产品一键下单' },
       ],
-      image: '/images/colorful-hxx.png', 
+      image: `${import.meta.env.BASE_URL}images/colorful-hxx.png`, 
       color: 'from-pink-500 to-rose-500',
       align: 'left',
       link: 'https://arifinfirman788-blip.github.io/huangxiaoxi-gaode/'
@@ -28,7 +28,7 @@ const CoreProducts = () => {
         { icon: BrainCircuit, text: '算法备案认证：通过国家“黄小西旅游服务合成算法”备案' },
         { icon: BarChart3, text: '数智化赋能：提供从客流监测到精准营销的全链条支持' },
       ],
-      image: '/images/scenic-agent.png', 
+      image: `${import.meta.env.BASE_URL}images/scenic-agent.png`, 
       color: 'from-blue-500 to-cyan-500',
       align: 'right',
       link: 'https://arifinfirman788-blip.github.io/JingQu/'
@@ -44,7 +44,7 @@ const CoreProducts = () => {
         { icon: Bus, text: '旅行社智能体：行程自动排期、资源智能调度' },
         { icon: Building, text: '政府智能体：全域旅游监管、产业运行监测' },
       ],
-      image: '/images/industry-agent.png',
+      image: `${import.meta.env.BASE_URL}images/industry-agent.png`,
       color: 'from-purple-500 to-indigo-500',
       align: 'left'
     }
