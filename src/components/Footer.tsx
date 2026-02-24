@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer id="contact" className="bg-gray-900 text-white pt-20 pb-10 border-t border-gray-800">
       <div className="container mx-auto px-6 lg:px-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-16">
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-2 mb-6">
@@ -34,19 +34,6 @@ const Footer = () => {
               <li><a href="#home" className="hover:text-blue-400 transition-colors">首页</a></li>
               <li><a href="#about" className="hover:text-blue-400 transition-colors">关于我们</a></li>
               <li><a href="#solutions" className="hover:text-blue-400 transition-colors">解决方案</a></li>
-              <li><a href="#cases" className="hover:text-blue-400 transition-colors">案例展示</a></li>
-              <li><a href="#news" className="hover:text-blue-400 transition-colors">新闻动态</a></li>
-            </ul>
-          </div>
-
-          {/* Services */}
-          <div>
-            <h3 className="text-lg font-semibold mb-6">核心服务</h3>
-            <ul className="space-y-4 text-gray-400">
-              <li><a href="#" className="hover:text-blue-400 transition-colors">智慧景区</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">大数据平台</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">文旅电商</a></li>
-              <li><a href="#" className="hover:text-blue-400 transition-colors">数字营销</a></li>
             </ul>
           </div>
 
@@ -56,15 +43,15 @@ const Footer = () => {
             <ul className="space-y-4 text-gray-400">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-blue-500 mt-1 shrink-0" />
-                <span>贵州省贵阳市观山湖区<br />金融城国际中心</span>
+                <span>贵州省贵阳市云岩区<br />贵旅大厦</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-blue-500 shrink-0" />
-                <span>0851-88888888</span>
+                <span>0851-86671808</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-blue-500 shrink-0" />
-                <span>contact@guilv.com</span>
+                <span>postmaster@aihuangxiaoxi.com</span>
               </li>
             </ul>
           </div>

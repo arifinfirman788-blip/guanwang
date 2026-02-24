@@ -118,23 +118,6 @@ const CoreProducts = () => {
                     </li>
                   ))}
                 </ul>
-
-                {product.link ? (
-                  <a 
-                    href={product.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={`inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium text-white bg-gradient-to-r ${product.color} shadow-lg shadow-gray-200 hover:shadow-xl hover:-translate-y-1 transition-all`}
-                  >
-                    查看演示
-                    <ArrowRight size={18} />
-                  </a>
-                ) : (
-                  <button className={`px-6 py-3 rounded-lg font-medium text-white bg-gradient-to-r ${product.color} shadow-lg shadow-gray-200 hover:shadow-xl hover:-translate-y-1 transition-all flex items-center gap-2`}>
-                    了解详情
-                    <ArrowRight size={18} />
-                  </button>
-                )}
               </div>
             </motion.div>
           ))}

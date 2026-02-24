@@ -50,11 +50,6 @@ const About = () => {
                 <p className="text-gray-500 text-sm">覆盖酒店</p>
               </div>
             </div>
-
-            <button className="flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-800 transition-colors group">
-              了解更多关于我们的故事
-              <ArrowUpRight className="w-5 h-5 group-hover:-translate-y-1 group-hover:translate-x-1 transition-transform" />
-            </button>
           </div>
         </div>
       </div>

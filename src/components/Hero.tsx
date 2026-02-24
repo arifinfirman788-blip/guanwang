@@ -33,14 +33,7 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-            <button className="w-full sm:w-auto px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-semibold transition-all flex items-center justify-center gap-2 group shadow-lg shadow-blue-900/50 hover:shadow-blue-600/40 transform hover:-translate-y-1">
-              探索解决方案
-              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </button>
-            <button className="w-full sm:w-auto px-8 py-4 bg-white/5 hover:bg-white/10 text-white border border-white/10 rounded-full font-semibold backdrop-blur-sm transition-all flex items-center justify-center gap-2 hover:border-white/30">
-              <PlayCircle className="w-5 h-5" />
-              观看宣传片
-            </button>
+            
           </div>
         </motion.div>
       </div>

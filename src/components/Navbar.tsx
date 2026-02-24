@@ -19,9 +19,6 @@ const Navbar = () => {
     { name: '关于我们', href: '#about' },
     { name: '核心产品', href: '#products' },
     { name: '解决方案', href: '#solutions' },
-    { name: '案例展示', href: '#cases' },
-    { name: '新闻动态', href: '#news' },
-    { name: '联系我们', href: '#contact' },
   ];
 
   return (
@@ -54,9 +51,6 @@ const Navbar = () => {
               {link.name}
             </a>
           ))}
-          <button className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full text-sm font-medium transition-colors">
-            商务合作
-          </button>
         </div>
 
         {/* Mobile Menu Button */}
@@ -89,9 +83,6 @@ const Navbar = () => {
                   <ChevronRight size={16} />
                 </a>
               ))}
-              <button className="w-full bg-blue-600 text-white py-3 rounded-lg font-medium mt-2">
-                商务合作
-              </button>
             </div>
           </motion.div>
         )}
