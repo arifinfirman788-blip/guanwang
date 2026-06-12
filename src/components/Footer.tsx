@@ -57,7 +57,17 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 pt-8 text-center text-gray-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} 贵州贵旅数网科技有限公司 版权所有. 黔ICP备2025044274号-4</p>
+          <p>
+            &copy; {new Date().getFullYear()} 贵州贵旅数网科技有限公司 版权所有.{' '}
+            <a
+              href="https://beian.miit.gov.cn/#/Integrated/index"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-400 hover:text-blue-300 transition-colors"
+            >
+              黔ICP备2025044274号-4
+            </a>
+          </p>
         </div>
       </div>
     </footer>
